@@ -1,0 +1,33 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: |-
+    <code>int result = (int)convertToInt();
+    System.out.println(result);</code>
+- text: |-
+    <code>int result = (int)convertToInt(input);
+    System.out.println(result);</code>
+- text: <code>System.out.println(convertToInt(input));</code>
+- text: |-
+    <code>int result = convertToInt(input);
+    System.out.println(result);</code>
+- text: |-
+    <code>int result = convertToInt((int)input);
+    System.out.println(result);</code>
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/29812#comment
+status: Unchecked
+record: -1
+custom_name: "Call and Print: Method Magic!"
+local_check: false
